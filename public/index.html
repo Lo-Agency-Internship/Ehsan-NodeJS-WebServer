@@ -1,12 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Airbnb: Vacation Rentals, Cabin, Beach Houses, Unique Homes & ...
+  </title>
+  <link rel="icon" href="img/favicon.ico" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
+
 <body>
-    <h1>Ehsan welcomes you</h1>
+  <header class="header">
+    <img class="a-logo" src="img/svglogo.svg" alt="air bnb logo" />
+
+    <ul class="central-menu">
+      <li id="central-menu-li1">
+        <a href="#" id="central-menu-a1">Places to stay</a>
+      </li>
+      <li id="central-menu-li2">
+        <a href="#" id="central-menu-a2">Experiences</a>
+      </li>
+      <li id="central-menu-li3">
+        <a href="#" id="central-menu-a3">Online Experiences</a>
+      </li>
+    </ul>
+
+    <ul class="right-menu">
+      <li id="right-menu-background-become">
+        <a href="#" id="right-menu-become">Become a Host</a>
+      </li>
+      <li id="right-menu-background-language">
+        <a href="#"><img id="language" src="img/lang.svg" alt="language menu" /></a>
+      </li>
+      <div class="user">
+        <li>
+          <a href="#"><img id="menu" src="img/hamburger.svg" /></a>
+        </li>
+        <li>
+          <a href="#"><img id="user-icon" src="img/account.svg" /></a>
+        </li>
+      </div>
+    </ul>
+  </header>
+
+  <!-- main content starts here -->
+  <!-- --------------------------------------------------------------------------- -->
+  <div class="content">
+    <!-- search bar starts here -->
+    <!-- ------------------------------------------ -->
+    <div class="search-bar">
+      <div id="search-bar-1" class="search-bar-divider">
+        <ul id="search-bar-ul1">
+          <li id="search-bar-ul1-location">Location</li>
+          <li id="search-bar-ul1-where">Where are you going?</li>
+        </ul>
+      </div>
+      <div id="search-bar-2" class="divider search-bar-divider">
+        <ul id="search-bar-ul2">
+          <li id="search-bar-ul2-check-in">Check in</li>
+          <li id="search-bar-ul2-add-dates1">Add dates</li>
+        </ul>
+      </div>
+      <div id="search-bar-3" class="divider search-bar-divider">
+        <ul id="search-bar-ul3" class="border-disapear">
+          <li id="search-bar-ul3-check-out">Check out</li>
+          <li id="search-bar-ul3-add-dates2">Add dates</li>
+        </ul>
+      </div>
+      <div id="search-bar-4" class="divider search-bar-divider">
+        <ul id="search-bar-ul4" class="border-disapear">
+          <li id="search-bar-ul4-guests">Guests</li>
+          <li id="search-bar-ul4-add-guests">Add guests</li>
+        </ul>
+      </div>
+      <div id="search-bar-magnifier">
+        <img id="search-icon-image" src="img/search.png" alt="" />
+        <!-- <span id="search-text">Search</span> -->
+      </div>
+    </div>
+
+    <!-- red section starts here -->
+    <!-- ------------------------------------------- -->
+    <div id="redSection-help-refugees">
+      <div id="redSection-help-refugees-div">
+        <p id="help">Help house 100,000 refugees fleeing Ukraine</p>
+        <a id="LearnMore" href="#">Learn more</a>
+      </div>
+    </div>
+
+    <!-- Let your curiosity section starts here -->
+    <!-- ------------------------------------------- -->
+
+    <div id="let-your-curiosity">
+      <div id="let-your-curiosity-div">
+        <img src="img/letYourCuriosity.webp" alt="" id="let-your-curiosity-pic" />
+        <p id="let-your-curiosity-text">Let your curiosity do the booking</p>
+        <button id="let-your-curiosity-button">
+          <p>I'm flexible</p>
+        </button>
+      </div>
+    </div>
+    <!-- Inspiration for your next trip section starts here -->
+    <!-- ------------------------------------------- -->
+    <div id="inspiration-next-trip">
+      <div id="inspiration-next-trip-text">
+        <p id="inspiration-next-trip-text-p">
+          Inspiration for your next trip
+        </p>
+      </div>
+      <div id="inspiration-next-trip-cities">
+        <div class="cities">
+          <div class="city" id="eureka">
+            <img src="img/eureka.webp" alt="eureka city" class="inspire-cities-img" id="city-eureka" />
+            <p class="inspire-cities-upper-text-class" id="city-eureka-upper-text">
+              Eureka Springs
+            </p>
+            <p class="inspire-cities-down-text-class" id="city-eureka-down-text">
+              192 miles away
+            </p>
+          </div>
+        </div>
+        <div class="cities">
+          <div class="city" id="kansas">
+            <img src="img/kansas.webp" alt="kansas city" class="inspire-cities-img" id="city-kansas" />
+            <p class="inspire-cities-upper-text-class" id="city-kansas-upper-text">
+              Kansas City
+            </p>
+            <p class="inspire-cities-down-text-class" id="city-kansas-down-text">
+              1 mile away
+            </p>
+          </div>
+        </div>
+        <div class="cities">
+          <div class="city" id="hermann">
+            <img src="img/hermann.webp" alt="harmann city" class="inspire-cities-img" id="city-hermann" />
+            <span class="inspire-cities-upper-text-class" id="city-hermann-upper-text">Hermann</span>
+            <span class="inspire-cities-down-text-class" id="city-hermann-down-text">173 miles away</span>
+          </div>
+        </div>
+        <div class="cities">
+          <div class="city" id="saint">
+            <img src="img/saint.webp" alt="saint city" class="inspire-cities-img" id="city-saint" />
+            <span class="inspire-cities-upper-text-class" id="city-saint-upper-text">Saint Louis</span>
+            <span class="inspire-cities-down-text-class" id="city-saint-down-text">236 miles away</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Discover Airbnb Experiences section starts here -->
+    <!-- ------------------------------------------- -->
+    <div id="discover-experiences">
+      <div id="discover-experiences-title">
+        <p>Discover Airbnb Experiences</p>
+      </div>
+      <div id="discover-experiences-content">
+        <div id="discover-experiences-content-left">
+          <p>Things to do on your trip</p>
+          <button>Experiences</button>
+          <img src="img/thingtoDo.webp" alt="three people in a rocky scene pointing to sky" />
+        </div>
+        <div id="discover-experiences-content-right">
+          <p>Things to do from home</p>
+          <button>Online Experiences</button>
+          <img src="img/thingtoDo2.webp" alt="a smiling woman washing cloth in a traditinal way with hands" />
+        </div>
+      </div>
+    </div>
+    <!-- Shop Airbnb gift cards section starts here -->
+    <!-- ------------------------------------------- -->
+    <div id="shop">
+
+      <div id="shop-left">
+        <div>
+          <p>Shop Airbnb gift cards</p>
+        </div>
+        <div>
+          <button>Learn more</button>
+        </div>
+      </div>
+
+      <div id="shop-right">
+        <img src="img/shop.webp" alt="">
+      </div>
+    </div>
+    <!--bottom-img-->
+    <!-- ------------------------------------------- -->
+    <div class="bottom-img-part">
+      <img class="bottom-img" src="img/12.webp" alt="" />
+      <div class="bottom-img-txt">
+        <p class="question">Questions</p>
+        <p class="question">about</p>
+        <p class="question">hosting?</p>
+        <button class="ask-superhost">Ask a Superhost</button>
+      </div>
+    </div>
+
+    <!--Inspiration for future getaways-->
+    <!-- ------------------------------------------- -->
+    <div class="future-getaways">
+      <h3 class="future-getaways-title">Inspiration for future getaways</h3>
+      <div class="bottom-link">
+        <div class="bottom-link-item">
+          <button id="bottom-link-item-1" class="f-g-btn">Destinations for arts & culture</button>
+          <button id="bottom-link-item-2" class="f-g-btn">Destinations for outdoor adventure</button>
+          <button id="bottom-link-item-3" class="f-g-btn">Mountain cabins</button>
+          <button id="bottom-link-item-4" class="f-g-btn">Beach destinations</button>
+          <button id="bottom-link-item-5" class="f-g-btn">Popular destinations</button>
+          <button id="bottom-link-item-6" class="f-g-btn">Unique Stays</button>
+        </div>
+      </div>
+
+      <div class="loctaions-nav">
+
+        <ul class="location-link" id="location-link-1">
+
+          <ul class="location-link-item-1-1" class="location-link-item">
+            <li class="location-area">Phoenix</li>
+            <li class="location-city">Arizona</li>
+          </ul>
+
+          <ul class="location-link-item-1-2" class="location-link-item">
+            <li class="location-area">San Francisco</li>
+            <li class="location-city">California</span>
+          </ul>
+
+          <ul class="location-link-item-1-3" class="location-link-item">
+            <li class="location-area">Keswick</li>
+            <li class="location-city">England</li>
+          </ul>
+
+        </ul>
+
+        <ul class="location-link" id="location-link-2">
+
+          <ul class="location-link-item-2-1" class="location-link-item">
+            <li class="location-area">Hot Springs</li>
+            <li class="location-city">Arkansas</li>
+          </ul>
+
+          <ul class="location-link-item-2-2" class="location-link-item">
+            <li class="location-area">Barcelona</li>
+            <li class="location-city">Catalonia</li>
+          </ul>
+
+          <ul class="location-link-item-2-3" class="location-link-item">
+            <li class="location-area">London</li>
+            <li class="location-city">England</li>
+          </ul>
+
+        </ul>
+
+        <ul class="location-link" id="location-link-3">
+
+          <ul class="location-link-item-3-1" class="location-link-item">
+            <li class="location-area">Los Angeles</li>
+            <li class="location-city">California</li>
+          </ul>
+
+          <ul class="location-link-item-3-2" class="location-link-item">
+            <li class="location-area">Prague</li>
+            <li class="location-city">Czechia</li>
+          </ul>
+
+          <ul class="location-link-item-3-3" class="location-link-item">
+            <li class="location-area">Scarborough</li>
+            <li class="location-city">England</li>
+          </ul>
+
+        </ul>
+
+        <ul class="location-link" id="location-link-4">
+
+          <ul class="location-link-item-4-1 location-link-item">
+            <li class="location-area">San Diego</li>
+            <li class="location-city">California</li>
+          </ul>
+
+          <ul class="location-link-item-4-2" class="location-link-item">
+            <li class="location-area">Washington</li>
+            <li class="location-city">District of Columbia</li>
+          </ul>
+
+          <ul class="location-link-item-4-3" class="location-link-item">
+            <li class="show-more">Show more</li>
+          </ul>
+
+        </ul>
+      </div>
+    </div>
+
+
+    <!--------------footer------------------>
+    <!-- ------------------------------------------- -->
+    <footer>
+      <div id="footer-top">
+        <div id="footer-top-1">
+          <ul>
+            <li class="footer-top-header" id="fth1">Support</li>
+            <li class="ft1">Help Center</li>
+            <li class="ft1">Safety information</li>
+            <li class="ft1">Supporting people with disabilities</li>
+            <li class="ft1">Cancellation options</li>
+            <li class="ft1">Our COVID-19 Response</li>
+            <li class="ft1">Report a neighborhood concern</li>
+          </ul>
+        </div>
+
+        <div id="footer-top-2">
+          <ul>
+            <li class="footer-top-header" id="fth2">Community</li>
+            <li class="ft2">Airbnb.org: disaster relief housing</li>
+            <li class="ft2">Support Afghan refugees</li>
+            <li class="ft2">Combating discrimination</li>
+          </ul>
+        </div>
+
+        <div id="footer-top-3">
+          <ul>
+            <li class="footer-top-header" id="fth3">Hosting</li>
+            <li class="ft3">Try hosting</li>
+            <li class="ft3">AirCover for Hosts</li>
+            <li class="ft3">Explore hosting resources</li>
+            <li class="ft3">Visit our community forum</li>
+            <li class="ft3">How to host responsibly</li>
+          </ul>
+        </div>
+
+        <div id="footer-top-4">
+          <ul>
+            <li class="footer-top-header" id="fth4">About</li>
+            <li class="ft4">Newsroom</li>
+            <li class="ft4">Learn about new features</li>
+            <li class="ft4">Letter from our founders</li>
+            <li class="ft4">Careers</li>
+            <li class="ft4">Investors</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="footer-bottom">
+        <div id="footer-bottom-left">
+          <span id="fb1">© 2022 Airbnb, Inc.</span>
+          <span id="fb2">·</span>
+          <a href="#" id="fb3">Privacy</a>
+          <span id="fb4">·</span>
+          <a href="" id="fb5">Terms</a>
+          <span id="fb6">·</span>
+          <a href="" id="fb7">Sitemap</a>
+        </div>
+        <div id="footer-bottom-right">
+          <a href="#"><img id="language-2" src="img/lang.svg" alt="language menu" /></a>
+          <span id="ENGLISH_US">English (US)</span>
+          <span id="eur-sign">€</span>
+          <span id="EUR">EUR</span>
+          <img id="facebook" class="fbr-img" src="img/facebook2.svg" alt="facebook icon" />
+          <img id="twitter" class="fbr-img" src="img/twitte.png" alt="twitter icon" />
+          <img id="instagram" class="fbr-img" src="img/instagram2.svg" alt="instagram icon" />
+        </div>
+      </div>
+
+    </footer>
+
+
+
+  </div>
 </body>
+
 </html>
