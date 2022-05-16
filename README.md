@@ -5,7 +5,7 @@ In this project, we created a web server without using any library just using no
 ## First :Clone the project
 
 ```bash
-  https://github.com/Lo-Agency-Internship/Ehsan-NodeJS-WebServer.git
+ git clone https://github.com/Lo-Agency-Internship/Ehsan-NodeJS-WebServer.git
 ```
 
 ## Second: Open the terminal where the project was downloaded.
